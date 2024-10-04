@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color: red;
+            background-color: aliceblue;
+            font-size: large;
+            word-spacing: 3px;
+            letter-spacing: 1px;
+        }
+        p.about::first-line{
+            color: green;
+        }
+        p::first-letter{
+            color: blue;
+            font-size: 48px;
+        }
+        p.about::selection{
+            background-color:violet;
+            
+        }
+        p.about::after{
+            content: '\2649';
+        }
+        p::after{
+            content: '\23F3';
+        }
+
+    </style>
+</head>
+<body>
+    <!-- pseudo classes-->
+    
+    
+    <!-- pseudo elements-->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, labore fugit omnis reiciendis autem minima dolorum, architecto vitae inventore nam, praesentium eligendi? Non cupiditate alias magni. Dolorem, totam saepe. Eius.</p>
+    <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia amet, vero molestiae totam eum veritatis a cupiditate tempora consequatur numquam temporibus porro dignissimos aperiam dolores, omnis, nostrum quos cum sit?</p>
+    </body>
+</html>

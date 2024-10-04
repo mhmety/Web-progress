@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;}
+
+        #showcase{
+            background: url('backgroun-images2.jpeg');
+            background-repeat: no-repeat;
+            background-size: 100% 500px;
+            padding: 50px;
+            height: 400px;
+        }
+        #how-it-works{
+            background-color: #fc997c;
+        
+        }
+      
+        .main_header{
+            background-color: #fc997c;
+            padding:8px 16px;
+            
+        }
+        .main_header a::before{
+            content: none;
+        }
+        .main-nav{
+            display: inline-block;
+            width: calc(100% - 99px);
+            text-align: right;
+        }
+        .main-nav__items{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .main-nav__item{
+            display: inline-block;
+            margin: 10px;
+        }
+        .main_header__item{
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: larger;
+            color: #fff;
+        }
+        .main-nav__item a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .main-nav__item a:hover{
+            color:#2e4c6d ;
+            transition: 400ms;
+        }
+        .main-nav__item a:active{
+            color:aliceblue;
+            
+        }
+        a::before{
+            content: '\2022 ';
+            padding: 2px;
+        }
+        .main-nav__item--login{
+            background-color: #f7b7a6;
+            border: #f7b7a6 solid 2px;
+            border-radius: 8px;
+            padding: 6px 12px;
+        }
+        .main-nav__item--login:hover{
+            background-color:#f8d6cc ;
+            border: #f8d6cc solid 2px;
+            transition: 400ms;
+        }
+        .main-nav__item--login a::before{
+            content: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="main_header">
+       
+        <a href="#" class="main_header__item" >Movieapp</a>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="margin.html" >Diziler</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" >Filmler</a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--login">
+                        <a href="#" >Login</a>
+                    </li>
+                </ul>
+            
+            </nav>
+      
+    </header>
+    
+    <main>
+        <section id="showcase">
+            <h1>Welcome to Movie app</h1>
+        </section>
+        <section id="how-it-works">
+            <h2>How it Works?</h2>
+        </section>
+    </main>
+</body>
+</html>

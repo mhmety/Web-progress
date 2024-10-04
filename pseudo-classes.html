@@ -6,16 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      
+      a{
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 5px 8px;
+        display: inline-block;
+        width: 60px;
+        text-align: center;
+      }
+      a:link{
+        color: red;
+      }
+
+      a:visited{
+        color: green;
+      }
+
+      a:hover{
+        color: white;
+      }
+
+      a:active{
+        color: pink;
+      }
+      div:hover p{
+        display: block;
+        background-color: aliceblue;
+      }
+      p{
+        display: none;
+      }
     </style>
 </head>
 <body>
     
     <!-- Pseudo classes -->
-
-    
-
+    <a href="box-model1.html">home</a>
+    <a href="box-sizing1.html">products</a>
+    <a href="index1.html">about</a>
     <!-- Pseudo elements  -->
-
+     <br><br><br>
+    <div>
+        Click Here!
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum perspiciatis hic neque iure esse deleniti et ratione consectetur, cupiditate ipsum quam. Quasi quos cupiditate corrupti rem? Quam deserunt dicta veritatis.</p>
+    </div>
 </body>
 </html>
