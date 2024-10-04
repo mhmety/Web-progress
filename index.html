@@ -4,8 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{margin: 0;}
+
+        #showcase{
+            background-color: #2e4c6d;
+            padding: 50px;
+        }
+        #how-it-works{
+            background-color: #fc997c;
+        
+        }
+      
+        .main_header{
+            background-color: #fc997c;
+            padding:8px 16px;
+            
+        }
+        .main-nav{
+            display: inline-block;
+            width: calc(100% - 99px);
+            text-align: right;
+        }
+        .main-nav__items{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .main-nav__item{
+            display: inline-block;
+            margin: 10px;
+        }
+        .main_header__item{
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: larger;
+            color: #fff;
+        }
+        .main-nav__item a{
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <h1>selam</h1>
+    
+    <header class="main_header">
+       
+        <a href="#" class="main_header__item" >Movieapp</a>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="#" >home</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" >movies</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" >contact</a>
+                    </li>
+                </ul>
+            
+            </nav>
+      
+    </header>
+    
+    <main>
+        <section id="showcase">
+            <h1>Welcome to Movie app</h1>
+        </section>
+        <section id="how-it-works">
+            <h2>How it Works?</h2>
+        </section>
+    </main>
 </body>
 </html>
